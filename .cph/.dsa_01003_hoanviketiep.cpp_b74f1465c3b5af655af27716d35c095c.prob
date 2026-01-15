@@ -1,0 +1,1 @@
+{"name":"Local: dsa_01003_hoanviketiep","url":"e:\\DSA_CODE_PTIT\\dsa_01003_hoanviketiep.cpp","tests":[{"id":1768296210029,"input":"2\n5\n1 2 3 4 5\n5 \n5 4 3 2 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA_CODE_PTIT\\dsa_01003_hoanviketiep.cpp","group":"local","local":true}
