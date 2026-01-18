@@ -1,0 +1,1 @@
+{"name":"Local: dsa_1027_hoan_vi_day_so","url":"e:\\DSA_CODE_PTIT\\dsa_1027_hoan_vi_day_so.cpp","tests":[{"id":1768643619189,"input":"3\n88 77 99","output":"77 88 99 \n77 99 88 \n88 77 99 \n88 99 77 \n99 77 88 \n99 88 77 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA_CODE_PTIT\\dsa_1027_hoan_vi_day_so.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: dsa_01022_stt_hoan_vi","url":"e:\\DSA_CODE_PTIT\\dsa_01022_stt_hoan_vi.cpp","tests":[{"id":1768615801667,"input":"2\n4\n1 4 3 2\n4\n1 2 3 4","output":"6\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA_CODE_PTIT\\dsa_01022_stt_hoan_vi.cpp","group":"local","local":true}

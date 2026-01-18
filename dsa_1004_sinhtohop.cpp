@@ -4,6 +4,7 @@ using namespace std;
 int n,k;
 int ok = 1;
 vector<int> a(100);
+
 void KhoiTao()
 {
     for(int i = 0; i< k; i++)
