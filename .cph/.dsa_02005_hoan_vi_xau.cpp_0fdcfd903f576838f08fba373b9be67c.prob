@@ -1,0 +1,1 @@
+{"name":"Local: dsa_02005_hoan_vi_xau","url":"e:\\DSA_CODE_PTIT\\dsa_02005_hoan_vi_xau.cpp","tests":[{"id":1768811211147,"input":"2\nAB\nABC","output":"AB BA \nABC ACB BAC BCA CAB CBA "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA_CODE_PTIT\\dsa_02005_hoan_vi_xau.cpp","group":"local","local":true}
