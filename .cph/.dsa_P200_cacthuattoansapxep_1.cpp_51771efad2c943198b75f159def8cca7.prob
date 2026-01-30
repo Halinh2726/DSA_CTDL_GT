@@ -1,0 +1,1 @@
+{"name":"Local: dsa_P200_cacthuattoansapxep_1","url":"e:\\DSA_CODE_PTIT\\dsa_P200_cacthuattoansapxep_1.cpp","tests":[{"id":1769220409226,"input":"2\n\n4\n\n5 7 1 4\n\n7\n\n123 456 100 989 444 111 90","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA_CODE_PTIT\\dsa_P200_cacthuattoansapxep_1.cpp","group":"local","local":true}

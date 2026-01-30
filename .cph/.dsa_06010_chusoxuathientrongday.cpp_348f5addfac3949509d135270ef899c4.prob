@@ -1,0 +1,1 @@
+{"name":"Local: dsa_06010_chusoxuathientrongday","url":"e:\\DSA_CODE_PTIT\\dsa_06010_chusoxuathientrongday.cpp","tests":[{"id":1769479967077,"input":"2\n3\n131 11 48\n4\n111 222 333 446","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA_CODE_PTIT\\dsa_06010_chusoxuathientrongday.cpp","group":"local","local":true}

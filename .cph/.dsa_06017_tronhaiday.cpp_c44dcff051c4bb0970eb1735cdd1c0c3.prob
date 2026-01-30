@@ -1,0 +1,1 @@
+{"name":"Local: dsa_06017_tronhaiday","url":"e:\\DSA_CODE_PTIT\\dsa_06017_tronhaiday.cpp","tests":[{"id":1769592137068,"input":"1\n\n3 3\n\n10 5 15\n\n20 3 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA_CODE_PTIT\\dsa_06017_tronhaiday.cpp","group":"local","local":true}

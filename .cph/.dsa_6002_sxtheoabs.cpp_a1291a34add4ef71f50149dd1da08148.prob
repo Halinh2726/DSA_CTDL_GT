@@ -1,0 +1,1 @@
+{"name":"Local: dsa_6002_sxtheoabs","url":"e:\\DSA_CODE_PTIT\\dsa_6002_sxtheoabs.cpp","tests":[{"id":1769441174018,"input":"2\n5 7\n10 5 3 9 2\n5 6\n1 2 3 4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA_CODE_PTIT\\dsa_6002_sxtheoabs.cpp","group":"local","local":true}
