@@ -1,0 +1,1 @@
+{"name":"DSA07009_Bien_Doi_Tien_To_Trung_To","url":"https://code.ptit.edu.vn/student/question/DSA07009","tests":[{"id":1770032489148,"input":"2\n*+AB-CD\n*-A/BC-/AKL","output":"((A+B)*(C-D))\n((A-(B/C))*((A/K)-L))"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_07009_Bien_Doi_Tien_To_Trung_To.cpp"}

@@ -1,0 +1,1 @@
+{"name":"DSA06021_Tim_Kiem_Trong_Day_Sap_Xep_Vong","url":"https://code.ptit.edu.vn/student/question/DSA06021","tests":[{"input":"2\n10 3\n5 6 7 8 9 10 1 2 3 4\n10 3\n1 2 3 4 5 6 7 8 9 10","output":"9\n3","id":1770415314788}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_06021_Tim_Kiem_Trong_Day_Sap_Xep_Vong.cpp"}

@@ -1,0 +1,1 @@
+{"name":"DSA06022_So_Nho_Nhat_Va_Nho_Thu_Hai","url":"https://code.ptit.edu.vn/student/question/DSA06022","tests":[{"input":"2\n10\n5 6 7 8 9 10 1 2 3 4\n5\n1 1 1  1  1","output":"1 2\n-1","id":1769751483533}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_06022_So_Nho_Nhat_Va_Nho_Thu_Hai.cpp"}

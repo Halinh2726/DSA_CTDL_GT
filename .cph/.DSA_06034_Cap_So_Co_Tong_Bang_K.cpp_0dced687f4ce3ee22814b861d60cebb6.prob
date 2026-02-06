@@ -1,0 +1,1 @@
+{"name":"DSA06034_Cap_So_Co_Tong_Bang_K","url":"https://code.ptit.edu.vn/student/question/DSA06034","tests":[{"id":1770418030909,"input":"4\n4 6\n1 5 7 -1\n5 6\n1 5 7 -1 5\n4 2\n1 1 1 1\n13 11\n10 12 10 15 -1 7 6 5 4 2 1 1 1","output":"2\n3\n6\n9"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_06034_Cap_So_Co_Tong_Bang_K.cpp"}

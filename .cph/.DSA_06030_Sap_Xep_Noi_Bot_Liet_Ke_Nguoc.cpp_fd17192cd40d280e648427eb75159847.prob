@@ -1,0 +1,1 @@
+{"name":"DSA06030_Sap_Xep_Noi_Bot_Liet_Ke_Nguoc","url":"https://code.ptit.edu.vn/student/question/DSA06030","tests":[{"id":1769993347090,"input":"1\n6\n4 1 3 9 8 5","output":"Buoc 2: 1 3 4 5 8 9\nBuoc 1: 1 3 4 8 5 9"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_06030_Sap_Xep_Noi_Bot_Liet_Ke_Nguoc.cpp"}

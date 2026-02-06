@@ -2,46 +2,45 @@
 using namespace std;
 
 int n;
-int a[20];
-int used[20];
-
+int a[100];
+int used[100];
 void inkq()
 {
-    for(int i = 1;i<=n;i++)
+    for(int i = 1;i<= n; i++)
     {
-        cout << a[i] << " ";
+        cout << a[i];
     }
-    cout << "\n";
+    cout <<" ";
 }
-
-void Try(int i)
+void backtrack(int pos)
 {
-    for(int j = 1; j<= n; j++)
+    for(int i = 1; i<= n; i++)
     {
-        if(!used[j])
+        if(!used[i])
         {
-            a[i] = j;
-            used[j] = 1;
-        
-            if(i == n)
+            a[pos] = i;
+            used[i] = 1;
+            if(pos == n)
             {
                 inkq();
             }
-            else
-            {
-                Try(i+1);
+            else{
+                backtrack(pos+1);
             }
-            used[j] = 0;
-        }   
+            used[i] = 0;
+        }
     }
 }
 
 int main()
 {
-    cin >> n;
-    for(int i = 1; i<= n; i++)
+    int t;
+    cin >> t;
+    while(t--)
     {
-        cin >> a[i];
+        cin >> n;
+        backtrack(1);
+        cout <<"\n";
     }
-    Try(1);
+    return 0;
 }
