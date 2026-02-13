@@ -2,11 +2,7 @@
 using namespace std;
 const long long MOD = 1000000007;
 
-long long fibo(long long n)
-{
-    if(n < 2) return 0;
-    
-}
+
 int main()
 {
     int t;
@@ -14,8 +10,6 @@ int main()
     while(t--)
     {
         long long n;
-        cin >> n;
-        cout << fibo(n) <<"\n";
+
     }
-    return 0;
 }

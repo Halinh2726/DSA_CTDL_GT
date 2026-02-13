@@ -1,0 +1,1 @@
+{"name":"DSA_04015_Tinh_Floor_X","url":"https://code.ptit.edu.vn/student/question/DSA04015","tests":[{"id":1770947289975,"input":"3\n7 0\n1 2 8 10 11 12 19\n7 5\n1 2 8 10 11 12 19\n7 10\n1 2 8 10 11 12 19","output":"-1\n2\n4"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_04015_Tinh_Floor_X.cpp"}

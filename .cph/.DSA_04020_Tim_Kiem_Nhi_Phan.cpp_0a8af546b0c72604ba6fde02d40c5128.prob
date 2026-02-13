@@ -1,0 +1,1 @@
+{"name":"DSA_04020_Tim_Kiem_Nhi_Phan","url":"https://code.ptit.edu.vn/student/question/DSA04020","tests":[{"id":1770954366417,"input":"2\n5 3\n1 2 3 4 5\n6 5\n0 1 2 3 9 10","output":"3\nNO"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_04020_Tim_Kiem_Nhi_Phan.cpp"}

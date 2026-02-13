@@ -1,1 +1,1 @@
-{"name":"DSA_04008_So_Fibonacci_Thu_N","url":"https://code.ptit.edu.vn/student/question/DSA04008","tests":[{"input":"3\n2\n6\n20","output":"1\n8\n6765","id":1770856952240}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_04008_So_Fibonacci_Thu_N.cpp"}
+{"name":"DSA_04008_So_Fibonacci_Thu_N","url":"https://code.ptit.edu.vn/student/question/DSA04008","tests":[{"id":1770856952240,"input":"3\n2\n6\n20","output":"1\n8\n6765"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_04008_So_Fibonacci_Thu_N.cpp"}
