@@ -1,0 +1,1 @@
+{"name":"DSA_03006_Sap_Xep_Tham_Lam","url":"https://code.ptit.edu.vn/student/question/DSA03006","tests":[{"id":1771113806119,"input":"2\n7\n1 6 3 4 5 2 7\n7\n1 6 3 4 5 7 2","output":"Yes\nNo"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_03006_Sap_Xep_Tham_Lam.cpp"}
