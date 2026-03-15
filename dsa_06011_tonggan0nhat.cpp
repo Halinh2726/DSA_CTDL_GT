@@ -15,30 +15,16 @@ int main()
             cin >> a[i];
         }
 
-        sort(a, a+n);
-        int l = 0, r = n-1;
-        int bestsum = a[l] + a[r];
-
-        while(l < r)
+        long long minx = LLONG_MAX;
+        for(int i = 0; i< n-1; i++)
         {
-            int sum = a[l] + a[r];
-
-            if (abs(sum) < abs(bestsum) || (abs(sum) == abs(bestsum) && sum > bestsum))
+            for(int j = i +1 ; j< n; j++)
             {
-                bestsum = sum;
+                if(llabs(a[i] + a[j]) < llabs(a[minx]))
+                    minx = a[i] + a[j];
             }
-
-            if(sum < 0)
-            {
-                l++;
-            }
-
-            else if(sum > 0)
-                r--;
-            else
-                break;
         }
-        cout << bestsum << "\n";
+        cout << minx <<"\n";
     }
     return 0;
 }

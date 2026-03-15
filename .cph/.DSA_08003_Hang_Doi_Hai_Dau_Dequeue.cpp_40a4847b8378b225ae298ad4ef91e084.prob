@@ -1,0 +1,1 @@
+{"name":"DSA_08003_Hang_Doi_Hai_Dau_Dequeue","url":"https://code.ptit.edu.vn/student/question/DSA08003","tests":[{"id":1773486062872,"input":"10\nPUSHBACK 1\nPUSHFRONT 2\nPUSHBACK 3\nPRINTFRONT\nPOPFRONT\nPRINTFRONT\nPOPFRONT\nPRINTBACK\nPOPFRONT\nPRINTBACK","output":"2\n1\n3\nNONE"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_08003_Hang_Doi_Hai_Dau_Dequeue.cpp"}

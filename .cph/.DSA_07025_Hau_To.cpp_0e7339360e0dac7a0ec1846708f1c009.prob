@@ -1,0 +1,1 @@
+{"name":"DSA_07025_Hau_To","url":"https://code.ptit.edu.vn/student/question/DSA07025","tests":[{"id":1773049720493,"input":"3\n7\n2 3 1 * + 9 –\n7\n8 7 5 * + 9 –\n3\n-10 -4 +","output":"-4\n34\n-14"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_07025_Hau_To.cpp"}

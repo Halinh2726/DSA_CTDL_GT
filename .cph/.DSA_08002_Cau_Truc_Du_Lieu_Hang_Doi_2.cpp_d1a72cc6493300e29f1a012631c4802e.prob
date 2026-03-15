@@ -1,0 +1,1 @@
+{"name":"DSA_08002_Cau_Truc_Du_Lieu_Hang_Doi_2","url":"https://code.ptit.edu.vn/student/question/DSA08002","tests":[{"id":1773484272533,"input":"9\nPUSH 1\nPUSH 2\nPOP\nPRINTFRONT\nPUSH 3\nPRINTFRONT\nPOP\nPOP\nPRINTFRONT","output":"2\n2\nNONE"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_08002_Cau_Truc_Du_Lieu_Hang_Doi_2.cpp"}

@@ -1,0 +1,1 @@
+{"name":"DSA_07023_Dao_Tu","url":"https://code.ptit.edu.vn/student/question/DSA07023","tests":[{"input":"2\nI like this program very much\nmuch very program this like I","output":"much very program this like I\nI like this program very much","id":1773049090142}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_07023_Dao_Tu.cpp"}

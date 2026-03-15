@@ -1,0 +1,1 @@
+{"name":"DSA_09004_Dfs_Tren_Do_Thi_Vo_Huong","url":"https://code.ptit.edu.vn/student/question/DSA09004","tests":[{"id":1773364546426,"input":"1\n6 9 5\n1 2\n1 3\n2 3\n2 4\n3 4\n3 5\n4 5\n4 6\n5 6","output":"5 3 1 2 4 6"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_09004_Dfs_Tren_Do_Thi_Vo_Huong.cpp"}

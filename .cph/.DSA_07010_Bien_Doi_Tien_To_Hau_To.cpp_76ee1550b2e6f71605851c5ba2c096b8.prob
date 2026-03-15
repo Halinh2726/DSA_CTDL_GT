@@ -1,0 +1,1 @@
+{"name":"DSA_07010_Bien_Doi_Tien_To_Hau_To","url":"https://code.ptit.edu.vn/student/question/DSA07010","tests":[{"id":1773043291242,"input":"2\n*+AB-CD\n*-A/BC-/AKL","output":"AB+CD-*\nABC/-AK/L-*"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_07010_Bien_Doi_Tien_To_Hau_To.cpp"}

@@ -1,35 +1,37 @@
 #include<bits/stdc++.h>
 using namespace std;
+const long long MOD = 1000000007;
+struct Matrix
+{
+    long long a[2][2];
+};
 
-int n;
-int a[100];
-int used[100];
-void inkq()
+Matrix matran(Matrix x, Matrix y)
 {
-    for(int i = 1;i<= n; i++)
+    Matrix result;
+    for(int i = 0; i< 2; i++)
     {
-        cout << a[i];
-    }
-    cout <<" ";
-}
-void backtrack(int pos)
-{
-    for(int i = 1; i<= n; i++)
-    {
-        if(!used[i])
+        for(int j = 0; j< 2; j++)
         {
-            a[pos] = i;
-            used[i] = 1;
-            if(pos == n)
+            result.a[i][j] = 0;
+            for(int k = 0; k < 2; k++)
             {
-                inkq();
+                result.a[i][j] = (result.a[i][j] + x.a[i][j] * y.a[i][j] % MOD) % MOD;
             }
-            else{
-                backtrack(pos+1);
-            }
-            used[i] = 0;
         }
     }
+    return result;
+}
+
+Matrix luy_thua(Matrix base, long long n)
+{
+    if(n == 1) return base;
+    Matrix matran_sum = luy_thua(base, n/2);
+    Matrix result = matran(matran_sum, matran_sum);
+
+    if(n%2 == 1)
+        result = matran(result, base);
+    return result;
 }
 
 int main()
@@ -38,9 +40,21 @@ int main()
     cin >> t;
     while(t--)
     {
-        cin >> n;
-        backtrack(1);
-        cout <<"\n";
+        long long n;
+        cin >> n; 
+        if(n== 0)
+        {
+            cout << 0 << "\n";
+            continue;
+        }
+        Matrix base;
+        base.a[0][0] = 1;
+        base.a[0][1] = 1;
+        base.a[1][0] = 1;
+        base.a[1][1] = 0;
+
+        Matrix result = luy_thua(base,n);
+        cout << result.a[0][1] <<"\n";
     }
     return 0;
 }

@@ -1,70 +1,30 @@
-#include<bits/stdc++.h>
+// 
+
+
+#include <bits/stdc++.h>
 using namespace std;
-
-int n;
-int tmp[20], cuoi[20];
-int used = 1;
-bool check(int a[], int b[], int n)
-{
-    int khac1 = 0;
-    for(int i= 0; i< n; i++)
-    {
-        if(a[i] != b[i]) khac1++;
-    }
-    return khac1 == 1;
+int n, a[100];
+void in() {
+    for (int i=1; i<=n; i++) {
+        if (a[i]==a[i-1]) cout << 0;
+        else if (a[i]==0) cout << 1;
+        else cout << a[i];
+    } cout << " ";
 }
-
-void backtrack(int pos)
-{
-    if(pos == n)
-    {
-        if(used)
-        {
-            for(int i= 0; i<n; i++)
-            {
-                if(tmp[i] != 0) return;
-            }
-            for(int i =0; i<n;i++)
-            {
-                cout << tmp[i];
-                cuoi[i] = tmp[i];
-            }
-            cout << " ";
-            used = 0;
-        }
-    else
-    {
-        if(check(tmp,cuoi, n))
-        {
-            for(int i = 0; i< n; i++)
-            {
-                cout << tmp[i];
-                cuoi[i] = tmp[i];
-            }
-            cout << " ";
-        }
+void Try(int i) {
+    for (int j=0; j<=1; j++){
+        a[i]=j;
+        if (i==n) in();
+        else Try(i+1);
     }
-    return;
-    }
-
-    tmp[pos] = 0;
-    backtrack(pos+1);
-    tmp[pos] = 1;
-
-    backtrack(pos+1);
 }
-
-int main()
-{
-    int t;
-    cin >>t;
-    while(t--)
-    {
+int main () {
+    int t; cin >> t;
+    while (t--) {
         cin >> n;
-        used = 1;
-        memset(cuoi, 0, sizeof(cuoi));
-        backtrack(0);
-        cout <<"\n";
+        memset(a, 0, sizeof(a));
+        Try(1);
+        cout << "\n";
     }
     return 0;
 }

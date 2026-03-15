@@ -1,0 +1,1 @@
+{"name":"DSA_09021_Chuyen_Ma_Tran_Ke_Sang_Danh_Sach_Ke","url":"https://code.ptit.edu.vn/student/question/DSA09021","tests":[{"id":1773371583922,"input":"3\n0 1 1\n1 0 1\n1 1 0","output":"2 3\n1 3\n1 2"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_09021_Chuyen_Ma_Tran_Ke_Sang_Danh_Sach_Ke.cpp"}

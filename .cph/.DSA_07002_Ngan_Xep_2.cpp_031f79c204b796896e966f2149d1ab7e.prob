@@ -1,0 +1,1 @@
+{"name":"DSA_07002_Ngan_Xep_2","url":"https://code.ptit.edu.vn/student/question/DSA07002","tests":[{"id":1772438531756,"input":"9\nPUSH 1\nPUSH 2\nPOP\nPRINT\nPUSH 3\nPRINT\nPOP\nPOP\nPRINT","output":"1\n3\nNONE"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_07002_Ngan_Xep_2.cpp"}
