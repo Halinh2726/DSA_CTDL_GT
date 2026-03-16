@@ -1,60 +1,161 @@
 #include<bits/stdc++.h>
 using namespace std;
-const long long MOD = 1000000007;
-struct Matrix
-{
-    long long a[2][2];
-};
 
-Matrix matran(Matrix x, Matrix y)
+int n,m;
+vector<int> adj[1001];
+bool visited[1001];
+
+void dfs(int u)
 {
-    Matrix result;
-    for(int i = 0; i< 2; i++)
+    cout << u << " ";
+    visited[u] = true;
+    for(auto x: adj[u])
     {
-        for(int j = 0; j< 2; j++)
+        if(!visited[x])
+            dfs(x);
+    }
+}
+
+void bfs(int u)
+{
+    queue<int> q;
+    q.push(u);
+    visited[u] = true;
+    while(!q.empty())
+    {
+        int v = q.front();
+        q.pop();
+        for(auto i : adj[v])
         {
-            result.a[i][j] = 0;
-            for(int k = 0; k < 2; k++)
+            if(!visited[i])
             {
-                result.a[i][j] = (result.a[i][j] + x.a[i][j] * y.a[i][j] % MOD) % MOD;
+                q.push(i);
+                visited[i] = true;
             }
         }
     }
-    return result;
 }
 
-Matrix luy_thua(Matrix base, long long n)
+int a[1001][1001];
+void c1()
 {
-    if(n == 1) return base;
-    Matrix matran_sum = luy_thua(base, n/2);
-    Matrix result = matran(matran_sum, matran_sum);
-
-    if(n%2 == 1)
-        result = matran(result, base);
-    return result;
-}
-
-int main()
-{
-    int t;
-    cin >> t;
-    while(t--)
+    // Danh sach ke sang ma tran ke
+    cin >> n >> m;
+    for(int i = 0; i< m; i++)
     {
-        long long n;
-        cin >> n; 
-        if(n== 0)
+        int x, y;
+        cin >> x >> y;
+        a[x][y] = a[y][x] = 1;
+    }  
+    for(int i = 1; i<= n; i++)
+    {
+        for(int j = 1; j<= n;j++)
         {
-            cout << 0 << "\n";
-            continue;
+            cout << a[i][j] <<" ";
         }
-        Matrix base;
-        base.a[0][0] = 1;
-        base.a[0][1] = 1;
-        base.a[1][0] = 1;
-        base.a[1][1] = 0;
+        cout << "\n";
+    } 
+}
 
-        Matrix result = luy_thua(base,n);
-        cout << result.a[0][1] <<"\n";
+vector<int> tmp[1001];
+void c2()
+{
+    // Danh sach canh sang danh sach ke
+    cin >> n >> m;
+    for(int i= 0;i< m; i++)
+    {
+        int x, y;
+        cin >> x  >> y;
+        tmp[x].push_back(y);
+        tmp[y].push_back(x);
     }
-    return 0;
+    for(int i = 1;i <= n; i++)
+    {
+        cout << i << ": ";
+        for(auto x: adj[i])
+        {
+            cout << x << " ";
+        }
+        cout << "\n";
+    }
+}
+
+void c3()
+{
+    // Danh sach ke sang danh sach canh
+    vector<pair<int, int>> edge;
+    vector<int> cnt[1001];
+    cin >> n;
+    cin.ignore();
+    for(int i = 1; i<= n; i++)
+    {
+        string s, num;
+        getline(cin, s);
+        stringstream ss(s);
+        while(ss >> num)
+        {
+            if(stoi(num) > i)
+            {
+                edge.push_back({i, stoi(num)});
+            }
+        }
+    }
+}
+
+void c4()
+{
+    // matix ke sang danh sach ke
+    for(int i = 1; i<= n; i++)
+    {
+        for(int j = 1; j<= m; j++)
+        {
+            cin >> a[i][j];
+        }
+    }
+
+    for(int i =1; i<= n; i++)
+    {
+        for(int j = 1; j<= m; j++)
+        {
+            if(a[i][j])
+                adj[i].push_back(j);
+        }
+    }
+
+    for(int i = 1; i<= n; i++)
+    {
+        cout << i << ": ";
+        for(auto x : adj[i])
+        {
+            cout << x << " ";
+        }
+        cout <<"\n";
+    }
+}
+
+void c5()
+{
+    // matrix ke sang ds canh
+    for(int i = 1; i<= n; i++)
+    {
+        for(int j = 1; j<= m; j++)
+        {
+            cin >> a[i][j];
+        }
+    }
+ vector<pair<int, int>> edge;
+    for(int i = 1; i<= n; i++)
+    {
+        for(int j= 1; j<= m; j++)
+        {
+            if(a[i][j])
+                edge.push_back({i,j});
+        }
+    }
+
+    for(auto x : edge)
+    {
+        cout << x.first << " "<< x.second;
+        cout << "\n";
+    }
 }
