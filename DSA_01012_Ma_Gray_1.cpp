@@ -1,8 +1,6 @@
-// 
-
-
 #include <bits/stdc++.h>
 using namespace std;
+
 int n, a[100];
 void in() {
     for (int i=1; i<=n; i++) {
@@ -11,6 +9,7 @@ void in() {
         else cout << a[i];
     } cout << " ";
 }
+
 void Try(int i) {
     for (int j=0; j<=1; j++){
         a[i]=j;

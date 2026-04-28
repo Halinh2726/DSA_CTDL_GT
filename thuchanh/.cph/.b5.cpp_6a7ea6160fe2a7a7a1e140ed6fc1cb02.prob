@@ -1,0 +1,1 @@
+{"name":"Local: b5","url":"e:\\DSA_CODE_PTIT\\thuchanh\\b5.cpp","tests":[{"id":1775358397390,"input":"2\n\n2 5\n\n1 1\n\n1 0\n\n3 1000000000\n\n1 2 3\n\n4 5 6\n\n7 8 9","output":""},{"id":1775359106685,"input":"2\n\n4\n\n10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA_CODE_PTIT\\thuchanh\\b5.cpp","group":"local","local":true}

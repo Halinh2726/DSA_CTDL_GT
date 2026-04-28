@@ -1,0 +1,1 @@
+{"name":"DSA_11026_Duyet_Sau_Cay_Tim_Kiem_Can_Bang","url":"https://code.ptit.edu.vn/student/question/DSA11026","tests":[{"id":1777001393362,"input":"2\n11\n40  28  45 38  33  15  25  20  23  35  30\n10\n1  2  3  4  5  6  7  8  9  10","output":"20 15 28 25 23 35 33 45 40 38 30\n1 4 3 2 7 6 10 9 8 5"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_11026_Duyet_Sau_Cay_Tim_Kiem_Can_Bang.cpp"}

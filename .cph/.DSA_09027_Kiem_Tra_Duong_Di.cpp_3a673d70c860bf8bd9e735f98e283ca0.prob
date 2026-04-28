@@ -1,0 +1,1 @@
+{"name":"DSA_09027_Kiem_Tra_Duong_Di","url":"https://code.ptit.edu.vn/student/question/DSA09027","tests":[{"id":1773650374820,"input":"1\n6 5\n1 2\n2 3\n3 4\n1 4\n5 6\n2\n1 5\n2 4","output":"NO\nYES"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_09027_Kiem_Tra_Duong_Di.cpp"}

@@ -1,0 +1,1 @@
+{"name":"DSA_11021_Node_La_Cua_Cay_Nhi_Phan_Tim_Kiem","url":"https://code.ptit.edu.vn/student/question/DSA11021","tests":[{"id":1777001941719,"input":"2\n6\n10 5 1 7 40 50\n11\n30 20 15 25 23 28 40 35 33 38 45","output":"1 7 50\n15 23 28 33 38 45"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_11021_Node_La_Cua_Cay_Nhi_Phan_Tim_Kiem.cpp"}

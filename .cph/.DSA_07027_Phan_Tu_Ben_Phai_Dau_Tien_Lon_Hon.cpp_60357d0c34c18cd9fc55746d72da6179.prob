@@ -1,0 +1,1 @@
+{"name":"DSA_07027_Phan_Tu_Ben_Phai_Dau_Tien_Lon_Hon","url":"https://code.ptit.edu.vn/student/question/DSA07027","tests":[{"id":1775125756190,"input":"3\n4\n4 5 2 25\n3\n2 2 2\n4\n4 4 5 5","output":"5 25 25 -1\n-1 -1 -1\n5 5 -1 -1"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_07027_Phan_Tu_Ben_Phai_Dau_Tien_Lon_Hon.cpp"}

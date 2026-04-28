@@ -1,0 +1,1 @@
+{"name":"DSA_11004_Duyet_Cay_Theo_Muc","url":"https://code.ptit.edu.vn/student/question/DSA11004","tests":[{"id":1776997268208,"input":"2\n2\n1 2 R 1 3 L\n4\n10 20 L 10 30 R 20 40 L 20 60 R","output":"1 3 2\n\n10 20 30 40 60\n"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_11004_Duyet_Cay_Theo_Muc.cpp"}

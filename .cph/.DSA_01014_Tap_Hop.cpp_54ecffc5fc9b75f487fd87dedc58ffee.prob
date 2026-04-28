@@ -1,0 +1,1 @@
+{"name":"DSA_01014_Tap_Hop","url":"https://code.ptit.edu.vn/student/question/DSA01014","tests":[{"input":"9 3 23\n9 3 22\n10 3 28\n16 10 107\n20 8 102\n20 10 105\n20 10 155\n3 4 3\n4 2 11\n0 0 0","output":"1\n2\n0\n20\n1542\n5448\n1\n0\n0","id":1774336876203}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_01014_Tap_Hop.cpp"}

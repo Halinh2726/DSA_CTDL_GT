@@ -72,6 +72,39 @@ int main()
     return 0;
 }
 
+// Truy vet
+void dypr()
+{
+    int parent[10001] = {-1};
+    vector<int> dp(n+1, 1);
+    int ans = 1;
+    for(int i = 1; i<= n; i++)
+    {
+        for(int j = 1; j< i; j++)
+        {
+            if(a[j] < a[i])
+            {
+                if(dp[i] < dp[j] + 1) {
+                    dp[i] = dp[j] + 1;
+                    parent[i] = j;
+                }
+            }
+        }
+    }
+    vector<int> answer;
+    int u = ans - 1;
+    while(u != -1)
+    {
+        answer.push_back(u);
+        u = parent[u];
+    }
+    for(int i = answer.size() - 1; i>= 0; i--)
+    {
+        cout << i << " ";
+    }
+    cout <<"\n";
+}
+
 // Cach 3: Dung mang tail[k] luu lai vi tri gia tri min co the cua day con tang co do dai k +1 + Binary Search
 
 int main()

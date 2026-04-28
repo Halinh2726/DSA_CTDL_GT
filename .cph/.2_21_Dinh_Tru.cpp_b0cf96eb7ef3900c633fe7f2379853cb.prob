@@ -1,0 +1,1 @@
+{"name":"2_21_Dinh_Tru","url":"https://code.ptit.edu.vn/student/question/dEJqcVJPSC93UkVzSVdhU3orUG5hZz09","tests":[{"id":1773972161580,"input":"5\n0 1 0 0 0\n1 0 1 0 0\n0 1 0 1 1\n0 0 1 0 1\n0 0 1 1 0","output":"2\n2 3"}],"srcPath":"e:\\DSA_CODE_PTIT\\2_21_Dinh_Tru.cpp"}

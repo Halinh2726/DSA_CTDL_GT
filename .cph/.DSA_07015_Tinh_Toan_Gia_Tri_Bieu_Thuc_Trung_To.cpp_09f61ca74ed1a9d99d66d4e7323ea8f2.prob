@@ -1,0 +1,1 @@
+{"name":"DSA_07015_Tinh_Toan_Gia_Tri_Bieu_Thuc_Trung_To","url":"https://code.ptit.edu.vn/student/question/DSA07015","tests":[{"id":1775124280633,"input":"4\n6*3+2-(6-4/2)\n100+99*22\n6*((4*3)+5)\n1-2","output":"16\n2278\n102\n-1"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_07015_Tinh_Toan_Gia_Tri_Bieu_Thuc_Trung_To.cpp"}
