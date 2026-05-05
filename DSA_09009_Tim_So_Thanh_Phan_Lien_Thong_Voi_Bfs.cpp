@@ -37,7 +37,7 @@ void bfs(int u, vector<int>& component)
     {
         int u = q.front();
         q.pop();
-        component.push_back(u);
+        component.push_back(u); // Lưu tất cả thành phần liên thông // gom đỉnh vào nhóm
 
         for(int x: adj[u])
         {
@@ -65,7 +65,7 @@ int main()
         {
             if(!visited[i])
             {
-                vector<int> component;
+                vector<int> component; 
                 bfs(i,component);
                 sort(component.begin(), component.end());
                 components.push_back(component);
