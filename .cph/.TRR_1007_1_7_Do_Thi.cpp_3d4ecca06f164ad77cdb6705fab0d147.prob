@@ -1,0 +1,1 @@
+{"name":"TRR_1007_1_7_Do_Thi","url":"https://code.ptit.edu.vn/student/question/TRR1007","tests":[{"input":"1\n4 3\n1 2\n1 4\n2 3","output":"2 2 1 1","id":1781151246704},{"id":1781154194684,"input":"2\n4\n2 2 4\n2 1 3\n1 2\n1 1","output":"4\n0 1 0 1\n1 0 1 0\n0 1 0 0\n1 0 0 0"}],"srcPath":"e:\\DSA_CODE_PTIT\\TRR_1007_1_7_Do_Thi.cpp"}

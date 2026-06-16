@@ -1,0 +1,1 @@
+{"name":"DSA_10015_Kruskal","url":"https://code.ptit.edu.vn/student/question/DSA10015","tests":[{"id":1778990562635,"input":"2\n3 3\n1 2 5\n2 3 3\n1 3 1\n2 1\n1 2 5","output":"4\n5"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_10015_Kruskal.cpp"}

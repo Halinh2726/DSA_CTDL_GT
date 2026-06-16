@@ -1,0 +1,1 @@
+{"name":"DSA_10007_Cay_Khung_Cua_Do_Thi_Theo_Thuat_Toan_Bfs","url":"https://code.ptit.edu.vn/student/question/DSA10007","tests":[{"input":"2\n4 4 2\n1 2\n1 3\n2 4\n3 4\n4 2 2\n1 2\n3 4","output":"2 1\n2 4\n1 3\n-1","id":1778989030409}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_10007_Cay_Khung_Cua_Do_Thi_Theo_Thuat_Toan_Bfs.cpp"}

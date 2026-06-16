@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+/*
+1. Đếm số thành phần liên thông ban đầu
+2. Duyệt dfs, sau đó xóa các đỉnh bằng cách đánh dấu visited[i] = true và đếm lại số thành phần liên thông 
+3. Nếu số thành phần liên thông sau lớn hơn số thành phần liên thông ban đầu thì đó là đỉnh trụ
+*/
 int n,m;
 vector<int> adj[1001];
 bool visited[1001];

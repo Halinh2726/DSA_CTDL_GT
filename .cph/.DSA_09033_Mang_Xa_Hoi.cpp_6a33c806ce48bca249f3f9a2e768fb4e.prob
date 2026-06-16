@@ -1,0 +1,1 @@
+{"name":"DSA_09033_Mang_Xa_Hoi","url":"https://code.ptit.edu.vn/student/question/DSA09033","tests":[{"id":1778946749464,"input":"3\n4 3\n1 3\n3 4\n1 4\n4 4\n3 1\n2 3\n3 4\n1 2\n10 4\n4 3\n5 10\n8 9\n1 2","output":"YES\nNO\nYES"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_09033_Mang_Xa_Hoi.cpp"}

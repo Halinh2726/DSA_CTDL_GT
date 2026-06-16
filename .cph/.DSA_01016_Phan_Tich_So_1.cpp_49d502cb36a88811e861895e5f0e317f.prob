@@ -1,0 +1,1 @@
+{"name":"DSA_01016_Phan_Tich_So_1","url":"https://code.ptit.edu.vn/student/question/DSA01016","tests":[{"id":1779054814513,"input":"2\n4\n5","output":"(4) (3 1) (2 2) (2 1 1) (1 1 1 1)\n(5) (4 1)  (3 2)  (3 1 1) (2 2 1)  (2 1 1 1)  (1 1 1 1 1)"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_01016_Phan_Tich_So_1.cpp"}

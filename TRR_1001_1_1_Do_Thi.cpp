@@ -1,0 +1,65 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int n;
+int cnt[105];
+vector<pair<int,int>> adj;
+int a[105][105];
+
+void chuyenmatrankesangdscanh()
+{
+    for(int i = 1; i<= n; i++)
+    {
+        for(int j = 1; j<= n;j++)
+        {
+            if(a[i][j] == 1)
+                cnt[i] += a[i][j];
+        }
+    }
+
+    for(int i = 1; i<= n; i++)
+    {
+        for(int j = i+1; j<= n; j++)
+            if(a[i][j] == 1)
+                adj.push_back({i,j});
+    }
+}
+
+void in1()
+{
+    for(int i = 1; i<= n; i++)
+    {
+        cout << cnt[i] << " ";
+    }
+    cout << "\n";
+}
+
+void in2()
+{
+    cout << n << " " << adj.size() << "\n";
+    for(auto x :adj)
+    {
+        cout << x.first << " " << x.second << "\n";
+    }
+}
+
+int main()
+{
+    freopen("DT.INP", "r", stdin);
+    freopen("DT.OUT", "w", stdout);
+    int t;
+    cin >> t >> n;
+    for(int i = 1; i<= n; i++)
+        for(int j = 1; j<= n; j++)
+            cin >> a[i][j];
+    chuyenmatrankesangdscanh();
+    if(t==1)
+    {
+        in1();
+    }
+    if(t==2)
+    {
+        in2();
+    }
+    return 0;
+}

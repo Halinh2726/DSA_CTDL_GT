@@ -1,0 +1,1 @@
+{"name":"DSA_10001_Tim_Duong","url":"https://code.ptit.edu.vn/student/question/DSA10001","tests":[{"id":1778948630610,"input":"2\n5 5\n..S..\n****.\nT....\n****.\n.....\n5 5\nS....\n****.\n.....\n.****\n..T..","output":"YES\nNO"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_10001_Tim_Duong.cpp"}

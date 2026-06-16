@@ -1,0 +1,1 @@
+{"name":"TRR_1016_1_16_Do_Thi","url":"https://code.ptit.edu.vn/student/question/TRR1016","tests":[{"input":"1\n4 7\n1 2\n1 4\n2 3\n2 4\n3 1\n3 2\n4 3","output":"1 2\n2 2\n2 2\n2 1","id":1781171942162},{"id":1781171942163,"input":"2\n4 7\n1 2\n1 4\n2 3\n2 4\n3 1\n3 2\n4 3","output":"4\n2 2 4\n2 3 4\n2 1 2\n1 3"}],"srcPath":"e:\\DSA_CODE_PTIT\\TRR_1016_1_16_Do_Thi.cpp"}

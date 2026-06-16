@@ -1,0 +1,1 @@
+{"name":"TRR_2015_2_15_Lien_Thong","url":"https://code.ptit.edu.vn/student/question/TRR2015","tests":[{"input":"4\n0 0 1 0\n0 0 0 1\n0 1 0 0\n1 0 0 0","output":"1","id":1781225944665},{"id":1781225944666,"input":"4\n0 0 1 0\n0 0 0 1\n0 1 0 0\n0 0 1 0","output":"2"}],"srcPath":"e:\\DSA_CODE_PTIT\\TRR_2015_2_15_Lien_Thong.cpp"}

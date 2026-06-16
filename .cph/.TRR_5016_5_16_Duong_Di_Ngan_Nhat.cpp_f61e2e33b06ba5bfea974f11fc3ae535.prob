@@ -1,0 +1,1 @@
+{"name":"TRR_5016_5_16_Duong_Di_Ngan_Nhat","url":"https://code.ptit.edu.vn/student/question/TRR5016","tests":[{"id":1781371077881,"input":"4\n0 7 8 2\n10000 0 10000 10000\n10000 1 0 10000\n10000 5 1 0","output":"1 2 4\n1 4 3 2"}],"srcPath":"e:\\DSA_CODE_PTIT\\TRR_5016_5_16_Duong_Di_Ngan_Nhat.cpp"}

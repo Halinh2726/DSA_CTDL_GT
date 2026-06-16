@@ -1,0 +1,1 @@
+{"name":"DSA_09028_To_Mau_Do_Thi","url":"https://code.ptit.edu.vn/student/question/DSA09028","tests":[{"id":1778900751646,"input":"2\n4  5  3\n1 2\n2 3\n3 4\n4 1\n1 3\n3 3 2\n1 2\n2 3\n1 3","output":"YES\nNO"}],"srcPath":"e:\\DSA_CODE_PTIT\\DSA_09028_To_Mau_Do_Thi.cpp"}
